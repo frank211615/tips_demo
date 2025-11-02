@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"></link>
+    <title>神秘的礼物</title>
+</head>
+<body>
+    <div class="modal">
+        <div class="modal-header">
+            <span>🎁</span>
+            <h3 class="modal-title">神秘的礼物</h3>
+        </div>
+        <div class="modal-body">
+            <p class="modal-text">您有一份神秘礼物，确定要打开吗？</p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" onclick="openGift()">确定</button>
+        </div>
+    </div>
+
+    <script>
+        function openGift() {
+            // 跳转到另一个页面
+            window.location.href = "tips/gift.html";
+        }
+    </script>
+</body>
+</html>
